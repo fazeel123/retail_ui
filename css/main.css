@@ -1,0 +1,25 @@
+
+.main {
+    margin: 20px;
+    float: left;
+    width: auto;
+}
+
+.nav-tabs {
+    display: inline-flex;
+}
+
+.nav-tabs li {
+    list-style-type: none;
+}
+
+label {
+    text-align: right;
+    clear: both;
+    float:left;
+    margin-right:15px;
+}
+
+.custom_btn_margin_right {
+    margin-left: 10px;
+}
