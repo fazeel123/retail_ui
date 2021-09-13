@@ -1,8 +1,24 @@
 
 .main {
-    margin: 20px;
+    margin: 10px;
+}
+
+.tab-content {
+    margin: 10px;
     float: left;
     width: auto;
+}
+
+.profile_image {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+
+.left-row-content {
+    border-style: solid;
+    padding: 10px;
+    border-color: azure;
 }
 
 .nav-tabs {
@@ -22,4 +38,12 @@ label {
 
 .custom_btn_margin_right {
     margin-left: 10px;
+}
+
+
+.profile_image > img {
+    vertical-align: middle;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
 }
