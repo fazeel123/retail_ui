@@ -84,11 +84,14 @@
                 <button class="btn btn-primary" style="margin-top: 24px; margin-left: 15px;">Refresh</button>
 
                 <button class="btn btn-primary" style="margin-top: 24px; margin-left: 19px;">Reset</button>
+                
               </div>
             </div>
 
             <div class="col-lg-4 col-md-4">
-
+              
+              <img src="assets/profile_image.png" alt="" width="100px" height="100px">
+              
             </div>
 
           </div>
@@ -110,8 +113,16 @@
 
                 <button class="btn btn-primary" style="margin-top: 24px; margin-left: 42px;">Set Default</button>
               </div>
-          
             </div>
+
+            <div class="col-lg-4 col-md-4 col-sm-4">
+              <br>
+              <div class="form-group">    
+                <input type="file" value="Select">
+              </div>
+
+            </div>
+
           </div>
 
           <div class="row">
@@ -122,6 +133,27 @@
                   <input class="form-control" type="text" name="product_code" id="product_code">
                 </div>
               </div>
+            </div>
+
+            <div class="col-lg-4 col-md-4 col-sm-4">
+              <div class="checkbox">
+                <label><input type="checkbox" value="">Active</label>
+              </div>
+              <br>
+              <div class="form-group">    
+                <label for="creation_date">Creation Date</label>
+                <input type="date" id="creation_date" class="form-control">
+              </div>
+              <div class="form-group">
+                <lable for="tec_aspect">Technical Aspects</lable>
+                <textarea id="tec_aspect" class="form-control"></textarea>
+              </div>
+
+              <div class="form-group">
+                <lable for="int_comment">Internal Comments</lable>
+                <textarea id="int_comment" class="form-control"></textarea>
+              </div>
+
             </div>
           </div>
 
@@ -333,7 +365,8 @@
             </div>
 
             <div class="col-lg-3 col-md-3 col-sm-3">
-            
+              <br>
+              <input type="text" class="form-control" name="" id="product_type" value="" placeholder="maximum">
             </div>
 
           </div>
@@ -369,8 +402,7 @@
             </div>
 
             <div class="col-lg-3 col-md-3 col-sm-3">
-              <br>
-              <input type="text" class="form-control" name="" id="product_type" value="" placeholder="maximum">
+              
             </div>
 
           </div>
